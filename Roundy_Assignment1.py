@@ -1,3 +1,7 @@
+#Travis Roundy
+#CSCI 3202-Intro to Artificial Intelligence
+#Assignment 1
+
 import sys
 from Queue import Queue
 from Stack import Stack

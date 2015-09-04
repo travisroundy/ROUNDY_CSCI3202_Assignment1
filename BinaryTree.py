@@ -1,3 +1,15 @@
+#I was not able to complete the Binary Tree class. I kept running into
+#dead ends. Although if it were to work correctly, creating an instance
+#of the Binary Tree would also create an instance of the Node class and
+#would be the root of the tree. To add to the tree, I would call a 
+#pre-order traversal function in order to find the parentValue given. 
+#From there check the left and right nodes to add, otherwise print
+#that the node has two children. Removing would be a similar process,
+#however rather than going through and adding a node if there are no
+#children, it would check to see if it had children and execute from there.
+#Printing the tree would use a similar preorder function, but would print
+#the values rather than returning.
+
 import sys
 
 class Node:
